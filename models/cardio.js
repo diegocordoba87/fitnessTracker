@@ -3,7 +3,8 @@ const Schema = mongoose.Schema;
 
 const CardioSchema = new Schema({
     name: String,
-    duration: Number
+    duration: Number,
+    distance: Number
 })
 
 const Cardio = mongoose.model("Cardio", CardioSchema);
