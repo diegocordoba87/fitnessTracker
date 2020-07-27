@@ -1,51 +1,53 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Fitness Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+![License](https://img.shields.io/badge/License-MIT-red)
 
-## User Story
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+## Description
+This is an application that can be used to create, view and update a database with different exercises, reps and durations.
 
-## Business Context
+![View Department](Assets/gifs/viewDept.gif)
+![View Employee By Manager](Assets/gifs/viewEmpByMgr.gif)
+![Update Employee Role](Assets/gifs/updateRole.gif)
+![Add Employee](Assets/gifs/addEmployee.gif)
+![Add Department](Assets/gifs/addDepartment.gif)
+![Add Role](Assets/gifs/addRole.gif)
 
-A consumer will reach their fitness goals quicker when they track their workout progress.
 
-## Acceptance Criteria
+## Table of Contents 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [MIT License](#MIT-License)
+* [Contributing](#Contributing)
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
 
-The user should be able to:
+## Installation
+No installation required.  You can just visit the deployed application here:
 
-  * Add exercises to a previous workout plan.
 
-  * Add new exercises to a new workout plan.
 
-  * View multiple the combined weight of multiple exercises on the `stats` page.
+## Usage 
+You can use this app to store, view and modify your workouts.
 
-## Commit Early and Often
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+## Test Instructions
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+No tests at the moment.
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
 
-Follow these guidelines for committing:
+## MIT License
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+This project is licensed under the MIT license.
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
+## Contributing
 
-* Test your application before you commit to ensure functionality at every step in the development process
+No collaborators at this time but you are more than welcome to improve it!
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
+## Questions
 
-## Submission on BCS
+If you have any questions pleae direct them to my email address: diegocordoba87@gmail.com or contact me via GitHub here: 
+https://github.com/diegocordoba87
+ 
 
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the Github repository
