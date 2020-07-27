@@ -6,12 +6,10 @@
 ## Description
 This is an application that can be used to create, view and update a database with different exercises, reps and durations.
 
-![View Department](Assets/gifs/viewDept.gif)
-![View Employee By Manager](Assets/gifs/viewEmpByMgr.gif)
-![Update Employee Role](Assets/gifs/updateRole.gif)
-![Add Employee](Assets/gifs/addEmployee.gif)
-![Add Department](Assets/gifs/addDepartment.gif)
-![Add Role](Assets/gifs/addRole.gif)
+![Fitness Main](assets/images/fitnessMain.png) 
+![Workout Dashboard](assets/images/workoutDashboard.png)
+![Fitness Tracker](assets/images/fitnessTracker.png)
+
 
 
 ## Table of Contents 

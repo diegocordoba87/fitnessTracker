@@ -9,7 +9,7 @@ const db = require("./models");
 
 const app = express();
 
-//app.use(logger("dev"));
+
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
@@ -17,7 +17,7 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI ||"mongodb://localhost/workouts", { useNewUrlParser: true, useUnifiedTopology: true});
 
-
+require("./seeders/seed");
 require("./routes/apiRoutes.js")(app);
 require("./routes/htmlRoutes.js")(app);
 
