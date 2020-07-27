@@ -22,7 +22,7 @@ This is an application that can be used to create, view and update a database wi
 
 ## Installation
 No installation required.  You can just visit the deployed application here:
-
+[Fitness Tracker](https://glacial-harbor-00867.herokuapp.com/)
 
 
 ## Usage 
