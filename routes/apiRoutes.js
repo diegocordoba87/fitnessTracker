@@ -20,15 +20,15 @@ module.exports = (app)=>{
         })
     })
 
-    app.put("/apit/workout/:id", (req, res)=>{
+    app.put("/api/workout/:id", (req, res)=>{
         db.Workout.update({_id: req.params.id}, {$push:{exercises:req.body}}).then((response)=>{
             return res.json(response)
         })
     })
     
-    
-
-
-
-
+    app.delete("/api/workout/:id", (req, res)=>{
+        db.Workout.destroy({_id: req.params.id}).then((response)=>{
+            return res.json(response)
+        })
+    })
 }
