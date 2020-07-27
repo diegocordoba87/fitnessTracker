@@ -5,7 +5,7 @@ const path = require("path")
 
 const PORT = process.env.PORT || 3000;
 
-//const db = require("./models");
+const db = require("./models");
 
 const app = express();
 
@@ -18,8 +18,7 @@ app.use(express.static("public"));
 mongoose.connect(process.env.MONGODB_URI ||"mongodb://localhost/workouts", { useNewUrlParser: true, useUnifiedTopology: true});
 
 
-//require("./seeders/seed")
-require("routes/apiRoutes.js");
+require("./routes/apiRoutes.js")(app);
 require("./routes/htmlRoutes.js")(app);
 
 
