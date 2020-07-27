@@ -1,7 +1,7 @@
 const db  = require("../models")
 
 module.exports = (app)=>{
-    app.get("api/workouts", (req, res)=>{
+    app.get("/api/workouts", (req, res)=>{
        db.Workout.find().then((results)=>{
            res.json(results);
        })
@@ -9,7 +9,7 @@ module.exports = (app)=>{
 
     app.get("/api/workouts/range", (req, res)=>{
         db.Workout.find().then(response => {
-      return res.json(response);
+       res.json(response);
     })
     })
 
@@ -25,9 +25,5 @@ module.exports = (app)=>{
         })
     })
     
-    app.delete("/api/workouts/:id", (req, res)=>{
-        db.Workout.destroy({_id: req.params.id}).then((response)=>{
-            return res.json(response)
-        })
-    })
+
 }
