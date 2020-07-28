@@ -15,13 +15,13 @@ module.exports = (app)=>{
 
     app.post("/api/workouts", (req, res)=>{
         db.Workout.create(req.body).then((response)=>{
-            return res.json(response);
+            res.json(response);
         })
     })
 
     app.put("/api/workouts/:id", (req, res)=>{
-        db.Workout.update({_id: req.params.id}, {$push:{exercises:req.body}}).then((response)=>{
-            return res.json(response)
+        db.Workout.findByIdAndUpdate({_id: req.params.id}, {$push:{exercises:req.body}}, {"new": true}).then((response)=>{
+            res.json(response)
         })
     })
     
